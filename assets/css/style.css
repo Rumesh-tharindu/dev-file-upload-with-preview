@@ -31,6 +31,7 @@ body {
   font-family: "Inter";
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 .container {
@@ -83,6 +84,9 @@ body {
 }
 .fileUploadPage .files .fileLeft img {
   width: 40px;
+}
+.fileUploadPage .files .fileLeft p {
+  color: #000;
 }
 .fileUploadPage .files .fileAction {
   background-color: transparent;

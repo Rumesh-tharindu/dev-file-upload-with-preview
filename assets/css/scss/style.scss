@@ -28,6 +28,12 @@
 	src: url('../fonts/Inter/Inter-Bold.ttf');
 }
 
+// color variable
+
+$primary-color: #9c81f5;
+$white: #fff;
+$black: #000;
+
 html {
 	overflow-x: hidden;
 }
@@ -36,6 +42,7 @@ body {
 	font-family: 'Inter';
 	margin: 0;
 	padding: 0;
+	background-color: $white;
 }
 
 .container {
@@ -57,7 +64,7 @@ body {
 		position: relative;
 
 		h1 {
-			color: #9c81f5;
+			color: $primary-color;
 			font-weight: 600;
 			text-align: center;
 			margin-bottom: 2rem;
@@ -93,6 +100,10 @@ body {
 			img {
 				width: 40px;
 			}
+
+			p {
+				color: $black;
+			}
 		}
 
 		.fileAction {
@@ -107,7 +118,7 @@ body {
 	}
 
 	.fileUploadBtn {
-		border: 4px dashed #9c81f5;
+		border: 4px dashed $primary-color;
 		padding: 4rem;
 		border-radius: 10px;
 		display: flex;
